@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
-import TopHeader from './TopHeader';
-import MenuHeader from './MenuHeader';
+import Header from './Header';
 import Slideshow from './Slideshow';
 import MiniNav from './MiniNav';
+import ContentContainer from './ContentContainer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <TopHeader />
-        <MenuHeader />
+        <Header />
         <Slideshow />
         <MiniNav />
+        <ContentContainer />
       </div>
     );
   }
