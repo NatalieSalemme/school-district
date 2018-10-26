@@ -29,7 +29,7 @@ body {
 }
 .content-container {
   border: 3px solid red;
-  height: 80em;
+  /* height: 80em; */
   width: 100%;
 }
 .quick-links-container {
@@ -57,6 +57,12 @@ body {
   height: 50em;
 }
 .staff-links-container {
+  border: 1px solid black;
+  background-color: white;
+  width: 20em;
+  height: 50em;
+}
+.feature-stories-container {
   border: 1px solid black;
   background-color: white;
   width: 20em;
