@@ -6,15 +6,18 @@ class DateCalendar extends Component {
     date: new Date()
   }
   onChange = date => this.setState({ date });
-
+  navigationLabel = () => {
+    this.setState({
+      date: this.state.date
+    });
+  }
   render() {
-    console.log('max detail', this.props.maxDetail);
     return (
       <div className="calendar-container">
-        <p>Calendar</p>
         <Calendar
           onChange={this.onChange}
-          value={this.state.date} />
+          value={this.state.date}
+        />
       </div>
     );
   }

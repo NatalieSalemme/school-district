@@ -18,15 +18,20 @@ body {
 }
 .slideshow-container {
   background-color: white;
-  border: 3px solid blue;
-  height: 37em;
+  border: 1px solid darkgray;
+  height: 25em;
   width: 100%;
+}
+.slideshow-img {
+  height: 400px;
+  width: 215px;
+
 }
 .mini-nav-container {
   background-color: white;
   height: 11em;
   width: 100%;
-  border: 3px solid green;
+  /* border: 3px solid green; */
 }
 .content-container {
   border: 3px solid red;
@@ -36,8 +41,10 @@ body {
 .calendar-container {
   background-color: white;
   width: 20em;
-  height: 30em;
+  height: auto;
   border: 1px solid black;
+  margin-left: 1em;
+
 }
 .twitter-container {
   background-color: white;
@@ -89,5 +96,4 @@ body {
 .right-icon {
   color: rgb(108, 24, 24);
   margin: 0 .5em 0 -.8em;
-
 }
