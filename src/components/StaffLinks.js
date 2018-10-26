@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 const StaffLinks = props => {
-  const rightIcon = <FontAwesomeIcon icon={faChevronRight} size="s" className="right-icon"/>
+  const rightIcon = <FontAwesomeIcon icon={faChevronRight} size="sm" className="right-icon"/>
   return (
     <div className="staff-links-container">
       <div className="main-sub-header">

@@ -1,6 +1,6 @@
 import React from 'react';
 import QuickLinks from './QuickLinks';
-import Calendar from './Calendar';
+import DateCalendar from './DateCalendar';
 import Twitter from './Twitter';
 import News from './News';
 import StaffLinks from './StaffLinks';
@@ -8,9 +8,8 @@ import StaffLinks from './StaffLinks';
 const ContentContainer = props => {
   return (
     <div className="content-container">
-      <p>contentcontainer</p>
       <QuickLinks />
-      <Calendar />
+      <DateCalendar />
       <Twitter />
       <News />
       <StaffLinks />

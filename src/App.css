@@ -43,6 +43,7 @@ body {
   background-color: white;
   width: 20em;
   border: 1px solid black;
+  margin-left: 1em;
 }
 .news-container {
   background-color: white;
@@ -86,7 +87,7 @@ body {
   color: rgb(83, 66, 68);
 }
 .right-icon {
-  color: red;
+  color: rgb(108, 24, 24);
   margin: 0 .5em 0 -.8em;
 
 }
