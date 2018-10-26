@@ -11,7 +11,8 @@
     "npm": "^6.4.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "react-twitter-embed": "^2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
