@@ -101,13 +101,6 @@ const Slideshow = props => {
         src={require('../images/highschool-10.jpg')}
       />
     </div>
-
-
-
-
-
-
-
   </InfiniteCarousel>
     </div>
   );

@@ -11,6 +11,13 @@ body {
   height: 4em;
   width: 100%;
 }
+.top-header-text {
+  color: white;
+  font-size: 24px;
+  margin-left: 3em;
+  padding-top: 1em;
+  font-weight: bold;
+}
 .menu-header {
   background-color: rgb(108, 24, 24);
   height: 11em;
