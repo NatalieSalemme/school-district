@@ -130,3 +130,39 @@ body {
 .mini-nav-icon {
   color: rgb(108, 24, 24);
 }
+.menu-header-school {
+  color: white;
+  margin-left: 2em;
+}
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid blue;
+  justify-content: space-around;
+
+}
+.menu-header-first-col {
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 1em;
+}
+.menu-header-NPUSD {
+  /* border: 1px solid white; */
+  margin-left: -6em;
+}
+.npusd-text {
+  color: white;
+  font-size: 44px;
+  font-weight: bold;
+}
+.np-header {
+  color: white;
+  margin: auto;
+}
+.menu-header-second-col {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+}

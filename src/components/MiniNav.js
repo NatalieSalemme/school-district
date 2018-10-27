@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGraduationCap, faSchool, faChalkboardTeacher, faPhone} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGraduationCap, faSchool, faChalkboardTeacher, faPhone} from '@fortawesome/free-solid-svg-icons';
 
 const MiniNav = props => {
   const graduationIcon = <FontAwesomeIcon icon={faGraduationCap} size="7x" className="graduation-icon"/>
