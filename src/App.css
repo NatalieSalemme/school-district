@@ -104,3 +104,29 @@ body {
   color: rgb(108, 24, 24);
   margin: 0 .5em 0 -.8em;
 }
+.mini-nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.mini-nav-icons-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.mini-nav-text {
+  color: rgb(108, 24, 24);
+  font-size: 24px;
+  margin: auto;
+  margin-top: 1em;
+}
+.mini-nav-text:hover {
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0 8px;
+  color: white;
+}
+.mini-nav-icon {
+  color: rgb(108, 24, 24);
+}
