@@ -21,6 +21,7 @@ const Slideshow = props => {
           slidesToShow: 3,
           slidesToScroll: 3,
         },
+  
       },
     ]}
     dots={true}
