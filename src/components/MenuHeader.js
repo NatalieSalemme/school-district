@@ -1,14 +1,16 @@
 import React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSchool } from '@fortawesome/free-solid-svg-icons';
+import { faSchool} from '@fortawesome/free-solid-svg-icons';
+// import {
+//   faGithubAlt,
+//   faGoogle,
+//   faFacebook,
+//   faTwitter
+// } from '@fortawesome/free-brands-svg-icons';
 
 const MenuHeader = () => {
   const schoolIcon = <FontAwesomeIcon icon={faSchool} size="7x" className="school-icon" />;
-  // const facebookIcon = <FontAwesomeIcon icon={fabFacebookF} size="2x" className="facebook-icon" />
-  // const twitterIcon = <FontAwesomeIcon icon={faTwitter} size="2x" className="twitter-icon" />
-  // const instagramIcon = <FontAwesomeIcon icon={faInstagram} size="2x" className="instagram-icon" />
-  // const linkedInIcon = <FontAwesome icon={faLinkedIn} size="2x" className="linked-in-icon" />
-
   return (
     <div className="menu-header">
       <div className="menu-header-first-col">
@@ -25,14 +27,11 @@ const MenuHeader = () => {
 
 
     <div className="menu-header-second-col">
-      <p>Social Media icons</p>
       <div className="social-media-icons">
-        <span className="fa fa-facebook"></span>
-        <i className="fab fa-facebook-f" style={{color: 'white'}}></i>
-        {/* <span>{facebookIcon}</span> */}
-        {/* <span>{twitterIcon}</span>
-        <span>{instagramIcon}</span>
-        <span>{linkedInIcon}</span> */}
+        <span className="fa fa-facebook social-icon"></span>
+        <span className="fa fa-twitter social-icon"></span>
+        <span className="fa fa-instagram social-icon"></span>
+        <span className="fa fa-linkedin social-icon" ></span>
       </div>
         <ul className="nav-bar-links">
           <li>HOME</li>

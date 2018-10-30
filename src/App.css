@@ -37,12 +37,22 @@ body {
 .menu-header-first-col {
   border: 1px solid green;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr .5fr;
   align-items: end;
   grid-gap: .5em .5em;
   padding: 0 1em;
-
+}
+.social-media-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+  font-size: 50px;
+  grid-column-gap: .7em;
+  justify-items: end;
+  margin: auto;
+}
+.social-icon:hover {
+  cursor: pointer;
 }
 
 .npusd-text {
