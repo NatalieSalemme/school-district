@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSchool } from '@fortawesome/free-solid-svg-icons';
 
 const MenuHeader = () => {
-  const schoolIcon = <FontAwesomeIcon icon={faSchool} size="7x" className="school-icon" />
+  const schoolIcon = <FontAwesomeIcon icon={faSchool} size="7x" className="school-icon" />;
   // const facebookIcon = <FontAwesomeIcon icon={fabFacebookF} size="2x" className="facebook-icon" />
   // const twitterIcon = <FontAwesomeIcon icon={faTwitter} size="2x" className="twitter-icon" />
   // const instagramIcon = <FontAwesomeIcon icon={faInstagram} size="2x" className="instagram-icon" />
@@ -12,21 +12,20 @@ const MenuHeader = () => {
   return (
     <div className="menu-header">
       <div className="menu-header-first-col">
-        <div>
         <span className="menu-header-school">{schoolIcon}</span>
-        <h3 className="np-header">North Park Unified School District</h3>
-      </div>
-      <div className="menu-header-NPUSD">
+        <div>
         <span className="npusd-text">NPU</span>
         <br />
         <span className="npusd-text">SD</span>
-      </div>
-      <br />
+        </div>
+
+
+      <h3 className="np-header">North Park Unified School District</h3>
       </div>
 
 
     <div className="menu-header-second-col">
-      <p>nav bar</p>
+      <p>Social Media icons</p>
       <div className="social-media-icons">
         <span className="fa fa-facebook"></span>
         <i className="fab fa-facebook-f" style={{color: 'white'}}></i>
