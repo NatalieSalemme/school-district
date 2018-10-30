@@ -135,11 +135,12 @@ body {
   margin-left: 2em;
 }
 .menu-header {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid blue;
-  justify-content: space-around;
-
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 2px solid blue;
+  grid-column-gap: 10px;
+  justify-content: end;
+  justify-items: end;
 }
 .menu-header-first-col {
   border: 1px solid green;
@@ -162,7 +163,23 @@ body {
   margin: auto;
 }
 .menu-header-second-col {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   border: 1px solid white;
+  justify-items: start;
+}
+.nav-bar-links {
+  border: 1px solid lightblue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr repeat(2, 1fr);
+  align-items: end;
+}
+.nav-bar-links li {
+  color: white;
+  list-style: none;
+  font-size: 19px;
+  text-align: center;
+}
+.nav-bar-links li:hover {
+  background-color: gray;
+  cursor: pointer;
 }
