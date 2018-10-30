@@ -2,12 +2,6 @@ import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSchool} from '@fortawesome/free-solid-svg-icons';
-// import {
-//   faGithubAlt,
-//   faGoogle,
-//   faFacebook,
-//   faTwitter
-// } from '@fortawesome/free-brands-svg-icons';
 
 const MenuHeader = () => {
   const schoolIcon = <FontAwesomeIcon icon={faSchool} size="7x" className="school-icon" />;

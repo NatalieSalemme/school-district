@@ -4,7 +4,7 @@
   font-family: "Open Sans"
 }
 body {
-  background-color: rgb(217, 217, 217);
+  /* background-color: rgb(217, 217, 217); */
 }
 .top-header {
   background-color: black;
@@ -21,7 +21,7 @@ body {
 .menu-header {
   background-color: rgb(108, 24, 24);
   height: 11em;
-  width: 100%;
+  width: 99%;
 }
 .menu-header-school {
   color: white;
@@ -84,45 +84,42 @@ body {
   background-color: gray;
   cursor: pointer;
 }
-
-/* .slideshow-container {
-  background-color: white;
-  border: 1px solid darkgray;
-  width: 100%;
+.carousel-container {
+  height: 230px;
+  margin-bottom: 2em;
+  display: grid;
+  align-items: center;
 }
 .slideshow-img {
-  height: 300px;
-  width: 110%;
-
-} */
-.slideshow-container {
-  background-color: white;
-  border: 1px solid darkgray;
-  height: auto;
+  height: 210px;
   width: 100%;
 }
-.slideshow-img {
-  height: 350px;
-  width: 100%;
-
+.carousel-buttons {
+  border: 1px solid orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.carousel-btn {
+  font-size: 25px;
 }
 .mini-nav-container {
   background-color: white;
   height: 11em;
   width: 100%;
-  /* border: 3px solid green; */
 }
 .content-container {
-  border: 3px solid red;
-  /* height: 80em; */
   width: 100%;
 }
 .calendar-container {
   background-color: white;
-  width: 100%;
+  width: 97%;
   height: auto;
   border: 1px solid black;
-  padding-left: 1em;
+
+  margin-right: -1.5em;
+  padding-left: .7em;
 
 }
 .twitter-container {
