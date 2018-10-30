@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Slideshow from './components/Slideshow';
 import MiniNav from './components/MiniNav';
 import ContentContainer from './components/ContentContainer';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
         <Slideshow />
         <MiniNav />
         <ContentContainer />
-
+        <Footer />
       </div>
     );
   }
