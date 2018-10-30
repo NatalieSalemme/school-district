@@ -4,6 +4,8 @@ import DateCalendar from './DateCalendar';
 import Twitter from './Twitter';
 import News from './News';
 import StaffLinks from './StaffLinks';
+import AboutUs from './AboutUs';
+import FeatureStories from './FeatureStories';
 
 const ContentContainer = props => {
   return (
@@ -13,6 +15,8 @@ const ContentContainer = props => {
       <Twitter />
       <News />
       <StaffLinks />
+      <FeatureStories />
+      <AboutUs />
     </div>
   );
 }

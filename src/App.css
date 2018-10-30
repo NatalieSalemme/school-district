@@ -4,7 +4,7 @@
   font-family: "Open Sans"
 }
 body {
-  /* background-color: rgb(217, 217, 217); */
+  background-color: rgb(217, 217, 217);
 }
 .top-header {
   background-color: black;
@@ -131,13 +131,13 @@ body {
   background-color: white;
   border: 1px solid black;
   width: 100%;
-  height: 50em;
+  /* height: 50em; */
 }
 .feature-stories-container {
   border: 1px solid black;
   background-color: white;
   width: 100%;
-  height: 50em;
+  /* height: 50em; */
 }
 .main-sub-header {
   background-color: rgb(108, 24, 24);
@@ -203,4 +203,25 @@ body {
 }
 .mini-nav-icon:hover {
   cursor: pointer;
+}
+.about-us-container {
+  background-color: white;
+}
+.about-us-container img {
+  height: 14em;
+  width: 101%;
+}
+.about-us-container h3 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.about-us-container p {
+  width: 85%;
+  margin: auto;
+}
+.secondary-header {
+  color: rgb(108, 24, 24);
+  font-weight: 200;
+  margin-left: 1em;
 }

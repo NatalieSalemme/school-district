@@ -29,6 +29,7 @@ class Slideshow extends React.Component {
             alt='Students sitting around table with ipads and computers'
             src={require('../images/highschool-0.jpg')}
           />
+          
         </Slide>
 
         <Slide index={1}>
