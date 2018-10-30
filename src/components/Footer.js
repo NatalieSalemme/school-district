@@ -38,7 +38,7 @@ const Footer = props => {
 
       </div>
       <div className="bottom-footer">
-        <h4>Coded By Natalie Salemme</h4>
+        <h4>&copy; Coded By Natalie Salemme</h4>
       </div>
     </div>
   );

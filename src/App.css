@@ -50,6 +50,7 @@ body {
   grid-column-gap: .7em;
   justify-items: end;
   margin: auto;
+  padding: .5em 0;
 }
 .social-icon:hover {
   cursor: pointer;
