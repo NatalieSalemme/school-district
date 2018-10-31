@@ -114,20 +114,9 @@ body {
 .content-container {
   width: 100%;
 }
-.calendar-container {
-  background-color: white;
-  width: 97%;
-  height: auto;
-  /* border: 1px solid black; */
 
-  margin-right: -1.5em;
-  padding-left: .7em;
-
-}
-.twitter-container {
-  background-color: white;
-  width: 100%;
-  /* border: 1px solid black; */
+.calendar-component {
+  margin-left: .5em;
 }
 .news-container {
   background-color: white;
@@ -138,19 +127,19 @@ body {
 .main-sub-header {
   background-color: rgb(108, 24, 24);
   height: 3em;
+  border-radius: 10px 10px 0 0;
+  margin-top: 1em;
 }
 .main-sub-header-text {
   color: white;
   font-size: 35px;
   margin-left: .7em;
 }
-.quick-links-container,
-.staff-links-container  {
-  /* border: 1px solid black; */
+.quick-links-ul,
+.staff-links-ul {
   background-color: white;
-  width: 100%;
-  height: 100%;
-
+  margin-top: -.3em;
+  border-radius: 0 0 10px 10px;
 }
 .quick-links-link,
 .staff-links-link {
@@ -198,11 +187,7 @@ body {
   cursor: pointer;
 }
 .about-us-container {
-  background-color: white;
   padding-bottom: 1em;
-}
-.feature-stories-container {
-  height: auto
 }
 
 .feature-story {
@@ -212,13 +197,14 @@ body {
 
 .about-us-container img {
   height: 14em;
-  width: 101%;
-  border: 2px solid green;
+  width: 100%;
+  margin: auto;
+  display: block;
 }
-.about-us-container h3 {
+.about-us-container h4 {
   border-bottom: 1px solid gray;
   padding-bottom: 1em;
-  margin-bottom: 1em;
+  margin: 1em 0;
 }
 .about-us-container p {
   width: 85%;
@@ -264,6 +250,7 @@ body {
     background-color: white;
     border-radius: 0 0 10px 10px;
     padding: 2em;
+    margin-top: -.3em;
 }
 .story-card-text h2 {
   color: rgb(108, 24, 24);
@@ -286,4 +273,16 @@ body {
 }
 .feature-story {
   border-radius: 10px 10px 0 0;
+}
+.feature-stories-container .main-sub-header {
+  border-radius: 10px;
+}
+.quick-links-container,
+.calendar-container,
+.twitter-container,
+.staff-links-container,
+.feature-stories-container .main-sub-header,
+.about-us-container {
+  width: 90%;
+  margin: auto;
 }

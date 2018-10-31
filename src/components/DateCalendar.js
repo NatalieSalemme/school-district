@@ -14,13 +14,12 @@ class DateCalendar extends Component {
   render() {
     return (
       <div className="calendar-container">
-      <div className="main-sub-header">
-        <h3 className="main-sub-header-text">CALENDAR</h3>
-      </div>
+        <div className="calendar-component">
         <Calendar
           onChange={this.onChange}
           value={this.state.date}
         />
+        </div>
       </div>
     );
   }
