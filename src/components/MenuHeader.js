@@ -30,9 +30,9 @@ const MenuHeader = () => {
           <li>HOME</li>
           <li>INFO</li>
           <li>DISTRICT</li>
-          <li id="student-services">STUDENT SERVICES</li>
           <li>SCHOOL</li>
           <li>RESOURCES</li>
+          <li id="student-services">STUDENT SERVICES</li>
       </ul>
     </div>
     </div>

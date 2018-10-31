@@ -43,6 +43,9 @@ body {
   align-items: end;
   padding: 0 1em;
 }
+.footer-first-col {
+  padding-left: 2em;
+}
 .social-media-icons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -87,7 +90,7 @@ body {
   cursor: pointer;
 }
 .carousel-container {
-  height: 230px;
+  height: 220px;
   margin-bottom: 2em;
   display: grid;
   align-items: center;
@@ -105,7 +108,7 @@ body {
   flex-direction: row;
 }
 .carousel-btn {
-  font-size: 25px;
+  font-size: 40px;
 }
 .mini-nav-container {
   background-color: white;
@@ -141,10 +144,11 @@ body {
   background-color: white;
   margin-top: -.3em;
   border-radius: 0 0 10px 10px;
+  padding: .2em 0;
 }
 .quick-links-link,
 .staff-links-link {
-  font-size: 20px;
+  font-size: 27px;
   margin: .3em 0 1em 1.3em;
   list-style-type: none;
 }
@@ -266,6 +270,10 @@ body {
   margin-bottom: .5em;
   text-align: center;
 }
+.story-card-text p,
+.about-us-text p {
+  font-size: 24px;
+}
 .story-card-text button {
   background-color: rgb(108, 24, 24);
   color: white;
@@ -299,16 +307,30 @@ body {
   display: grid;
 }
 
-@media screen and (min-width: 550px) {
+
+/* ------MEDIA QUERIES-------- */
+
+@media screen and (min-width: 540px) {
+  .menu-header-first-col {
+    font-size: 20px;
+  }
+  .menu-header .npusd-text {
+    font-size: 50px;
+  }
   .slideshow-img {
-    height: 300px;
+    height: 350px;
   }
   .carousel-container {
-    height: 320px;
+    height: 380px;
   }
   .footer-first-col {
     text-align: center;
     display: grid;
+    margin: auto;
+  }
+  .content-container {
+    width: 85%;
+    margin: auto;
   }
 
   .npusd-container {
@@ -318,3 +340,66 @@ body {
     width: 75%;
   }
 }
+  @media screen and (min-width: 768px) {
+    .carousel-btn {
+      font-size: 45px;
+    }
+    .nav-bar-links {
+      border: 2px dotted yellow;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 45px;
+      padding: 1em 0;
+    }
+    .menu-header-first-col {
+      font-size: 30px;
+    }
+    .menu-header .npusd-text {
+      font-size: 70px;
+      margin-left: -.5em;
+    }
+    .slideshow-img {
+      height: 450px;
+    }
+    .carousel-container {
+      height: 490px;
+    }
+    .quick-links-ul li,
+    .staff-links-ul li {
+      font-size:35px;
+    }
+    .mini-nav-container {
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 3em;
+    }
+    .mini-nav-container {
+      font-size: 20px;
+      padding: 2em 0;
+      height: auto;
+    }
+    .mini-nav-text {
+      font-size: 40px;
+    }
+    .calendar-component {
+      display: none;
+    }
+    .feature-stories-container {
+      margin-top: 2em;
+    }
+    .feature-story,
+    .about-us-container img {
+      height: 25em;
+    }
+    .story-card-text,
+    .about-us-text {
+      font-size: 24px;
+    }
+    .story-card-text button {
+      font-size: 44px;
+    }
+    .footer-first-col {
+      text-align: center;
+      margin: auto;
+      width: 30em;
+    }
+  }
