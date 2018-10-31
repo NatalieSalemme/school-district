@@ -203,12 +203,16 @@ body {
 }
 .about-us-container h4 {
   border-bottom: 1px solid gray;
-  padding-bottom: 1em;
-  margin: 1em 0;
+  padding: 1em 0;
 }
 .about-us-container p {
   width: 85%;
   margin: auto;
+  padding: 1em;
+}
+.about-us-text {
+  background-color: white;
+  border-radius: 0 0 10px 10px;
 }
 .secondary-header {
   color: rgb(108, 24, 24);
