@@ -10,6 +10,7 @@ body {
   background-color: black;
   height: 4em;
   width: 100%;
+  grid-area: header;
 }
 .top-header-text {
   color: white;
@@ -144,7 +145,7 @@ body {
 .quick-links-link,
 .staff-links-link {
   font-size: 20px;
-  margin: .3em 0 .3em 1.3em;
+  margin: .3em 0 1em 1.3em;
   list-style-type: none;
 }
 .quick-links-link:hover,
@@ -222,6 +223,10 @@ body {
 .top-footer {
   padding-top: 1em;
   background-color: rgb(108, 24, 24);
+  grid-area: topFooter;
+}
+.bottom-footer {
+  grid-area: bottomFooter;
 }
 .bottom-footer h4 {
   background-color: black;
@@ -289,4 +294,27 @@ body {
 .about-us-container {
   width: 90%;
   margin: auto;
+}
+.App {
+  display: grid;
+}
+
+@media screen and (min-width: 550px) {
+  .slideshow-img {
+    height: 300px;
+  }
+  .carousel-container {
+    height: 320px;
+  }
+  .footer-first-col {
+    text-align: center;
+    display: grid;
+  }
+
+  .npusd-container {
+    text-align: left;
+  }
+  .footer-container .social-media-icons {
+    width: 75%;
+  }
 }

@@ -10,9 +10,11 @@ const Footer = props => {
       <div className="footer-first-col">
         <span className="menu-header-school">{schoolIcon}</span>
         <div>
-        <span className="npusd-text">NPU</span>
-        <br />
-        <span className="npusd-text">SD</span>
+        <div className="npusd-container">
+          <span className="npusd-text">NPU</span>
+          <br />
+          <span className="npusd-text">SD</span>
+        </div>
         </div>
       <h3 className="np-header">North Park Unified School District</h3>
       </div>
