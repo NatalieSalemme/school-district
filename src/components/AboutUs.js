@@ -3,6 +3,9 @@ import React from 'react';
 const AboutUs = () => {
   return (
     <div className="about-us-container">
+    <div className="main-sub-header">
+      <h3 className="main-sub-header-text">ABOUT US</h3>
+    </div>
       <img
       src={require('../images/sd-school.jpg')}
       alt="San Diego School District Building" />
