@@ -361,10 +361,6 @@ body {
     .menu-header-school {
       font-size: 15px;
     }
-    .npusd-text {
-      font-size: 12px;
-      margin-left: -1em;
-    }
     .social-media-icons {
       font-size: 35px;
       padding-bottom: 1em;
@@ -384,24 +380,10 @@ body {
     .calendar-component {
       display: none;
     }
-
-    /* .slideshow-img {
-      height: 450px;
-    } */
-    /* .carousel-container {
-      height: 490px;
-    } */
     .quick-links-ul li,
     .staff-links-ul li {
       font-size:15px;
     }
-    /* .quick-links-container,
-    .staff-links-container,
-    .twitter-container,
-    .carousel-container {
-      width: 40%;
-    } */
-
     .feature-stories-container {
       margin-top: 2em;
     }
@@ -458,17 +440,42 @@ body {
     }
     .staff-links-container {
       grid-area: staff;
+      width: 500px;
     }
+    .staff-links-ul {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .feature-stories-container .main-sub-header {
+      display: none;
+    }
+
     .feature-stories-container {
-      grid-area: feature
+      grid-area: feature;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .feature-story {
+      height: 150px;
+      width: 190px;
+    }
+    .story-card-text {
+      font-size: 12px;
+    }
+    .story-card-text p {
+      font-size: 12px;
+    }
+    .story-card-text button {
+      font-size: 12px;
     }
     .content-container {
       display: grid;
       border: 3px dotted blue;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(4, 1fr);
       grid-template-areas:
-      "quickLinks about"
-      "carousel twitter"
-      "feature staff"
+      "quickLinks quickLinks about about"
+      "carousel carousel twitter twitter"
+      "feature feature feature feature"
+      "staff staff staff staff"
     }
   }
