@@ -27,7 +27,7 @@ const Footer = props => {
 
         <h3>Office Hours</h3>
         <p>Mon - Fri: 8am - 5pm</p>
-
+</div>
         <div className="social-media-icons">
           <span className="fa fa-facebook social-icon"></span>
           <span className="fa fa-twitter social-icon"></span>
@@ -37,7 +37,7 @@ const Footer = props => {
       </div>
 
 
-      </div>
+
       <div className="bottom-footer">
         <h4>&copy; Coded By Natalie Salemme</h4>
       </div>

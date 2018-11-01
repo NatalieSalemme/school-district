@@ -369,9 +369,6 @@ body {
 }
 
   @media screen and (min-width: 767px) {
-    .App {
-      background-color: yellow;
-    }
     .nav-bar-links {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -427,7 +424,6 @@ body {
       width: 30em;
     }
     .carousel-container {
-      /* grid-area: carousel; */
       height: 400px;
       width: 95%;
       margin: auto;
@@ -443,7 +439,6 @@ body {
       border-radius: 10px 10px 10px 10px;
     }
     .about-us-container {
-      /* grid-area: about; */
       height: 200px;
       margin-top: -.1em;
     }
@@ -457,7 +452,6 @@ body {
       font-size: 17px;
     }
     .staff-links-container {
-      /* grid-area: staff; */
       width: 500px;
     }
     .staff-links-ul {
@@ -469,7 +463,6 @@ body {
     }
 
     .feature-stories-container {
-      /* grid-area: feature; */
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
     }
@@ -497,16 +490,17 @@ body {
     }
   }
   @media screen and (min-width: 1100px) {
-    .App {
-      background-color: purple;
-    }
     .about-us-text {
       font-size: 25px;
+    }
+    .about-us-container {
+      margin-top: .5em;
     }
     .about-us-container p {
       font-size: 20px;
     }
-    .quick-links-ul li {
+    .quick-links-ul li,
+    .staff-links-ul li {
       font-size: 25px;
     }
     .twitter-container {
@@ -516,7 +510,18 @@ body {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
     }
-
+    .story-card-text {
+      font-size: 15px;
+    }
+    .staff-links-container {
+      width: 27em;
+    }
+    .story-card-text p {
+      font-size: 15px;
+    }
+    .carousel-container {
+      width: 27em;
+    }
     .content-container {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(2, 1fr);
@@ -525,7 +530,47 @@ body {
         "quickLinks quickLinks twitter twitter"
         "carousel carousel staff staff"
         "feature feature feature feature"
-        /* "staff staff staff staff" */
-
     }
   }
+
+@media screen and (min-width: 1400px) {
+  .menu-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .nav-bar-links li {
+    font-size: 20px;
+  }
+  .nav-bar-links {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .quick-links-container {
+    width: 37em;
+    margin-top: 8px;
+  }
+  .about-us-container img {
+    height: 17em;
+  }
+  .top-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .carousel-container {
+    margin-top: 7em;
+  }
+  .carousel-btn {
+    font-size: 20px;
+  }
+  .feature-story {
+    height: 14em;
+  }
+  .content-container {
+    grid-template-areas:
+    "quickLinks quickLinks about about"
+    "quickLinks quickLinks carousel carousel"
+    "twitter twitter staff staff"
+    "feature feature feature feature"
+    /* "staff staff staff staff" */
+}
+}
