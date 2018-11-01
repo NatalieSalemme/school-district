@@ -4,7 +4,7 @@ const FeatureStories = props => {
   return (
     <div className="feature-stories-container">
       <div className="main-sub-header">
-        <h3 className="main-sub-header-text">FEATURE STORIES</h3>
+        <h3 className="main-sub-header-text ">FEATURE STORIES</h3>
       </div>
         <div className="story-card">
         <img

@@ -347,8 +347,31 @@ body {
     width: 75%;
   }
 }
-  @media screen and (min-width: 767px) {
 
+
+.twitter-container {
+  grid-area: twitter;
+}
+.quick-links-container {
+  grid-area: quickLinks;
+}
+.carousel-container {
+  grid-area: carousel;
+}
+.about-us-container {
+  grid-area: about;
+}
+.staff-links-container {
+  grid-area: staff;
+}
+.feature-stories-container {
+  grid-area: feature;
+}
+
+  @media screen and (min-width: 767px) {
+    .App {
+      background-color: yellow;
+    }
     .nav-bar-links {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -404,7 +427,7 @@ body {
       width: 30em;
     }
     .carousel-container {
-      grid-area: carousel;
+      /* grid-area: carousel; */
       height: 400px;
       width: 95%;
       margin: auto;
@@ -417,17 +440,12 @@ body {
 
     .slideshow-img {
       height: 285px;
-        border-radius: 10px 10px 10px 10px;
-    }
-    .twitter-container {
-      grid-area: twitter;
-    }
-    .quick-links-container {
-      grid-area: quickLinks;
+      border-radius: 10px 10px 10px 10px;
     }
     .about-us-container {
-      grid-area: about;
+      /* grid-area: about; */
       height: 200px;
+      margin-top: -.1em;
     }
     .about-us-container img {
       height: 150px;
@@ -439,7 +457,7 @@ body {
       font-size: 17px;
     }
     .staff-links-container {
-      grid-area: staff;
+      /* grid-area: staff; */
       width: 500px;
     }
     .staff-links-ul {
@@ -451,13 +469,13 @@ body {
     }
 
     .feature-stories-container {
-      grid-area: feature;
+      /* grid-area: feature; */
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
     }
     .feature-story {
       height: 150px;
-      width: 190px;
+      width: 100%;
     }
     .story-card-text {
       font-size: 12px;
@@ -470,12 +488,44 @@ body {
     }
     .content-container {
       display: grid;
-      border: 3px dotted blue;
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas:
       "quickLinks quickLinks about about"
       "carousel carousel twitter twitter"
       "feature feature feature feature"
       "staff staff staff staff"
+    }
+  }
+  @media screen and (min-width: 1100px) {
+    .App {
+      background-color: purple;
+    }
+    .about-us-text {
+      font-size: 25px;
+    }
+    .about-us-container p {
+      font-size: 20px;
+    }
+    .quick-links-ul li {
+      font-size: 25px;
+    }
+    .twitter-container {
+      margin-top: 4em;
+    }
+    .staff-links-ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-container {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas:
+        "quickLinks quickLinks about about"
+        "quickLinks quickLinks twitter twitter"
+        "carousel carousel staff staff"
+        "feature feature feature feature"
+        /* "staff staff staff staff" */
+
     }
   }
