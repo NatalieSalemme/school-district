@@ -8,10 +8,10 @@ const MenuHeader = () => {
     <div className="menu-header">
       <div className="menu-header-first-col">
         <span className="menu-header-school">{schoolIcon}</span>
-        <div>
-        <span className="npusd-text">NPU</span>
-        <br />
-        <span className="npusd-text">SD</span>
+
+        <div className="menu-npusd-container">
+          <p className="npusd-text">NPU</p>
+          <p className="npusd-text">SD</p>
         </div>
 
 
@@ -27,10 +27,10 @@ const MenuHeader = () => {
         <span className="fa fa-linkedin social-icon" ></span>
       </div>
         <ul className="nav-bar-links">
-          <li>HOME</li>
           <li>INFO</li>
-          <li>DISTRICT</li>
+          <li>HOME</li>
           <li>SCHOOL</li>
+          <li>DISTRICT</li>
           <li>RESOURCES</li>
           <li id="student-services">STUDENT SERVICES</li>
       </ul>
